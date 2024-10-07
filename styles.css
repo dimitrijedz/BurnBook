@@ -1,0 +1,77 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* Svetlo roze pozadina stranice */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffccd5; /* Svetlije roze pozadina kontejnera */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d64078; /* Tamnija roze boja naslova */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ff99aa; /* Roze okvir polja za unos */
+    background-color: #fff0f5; /* Svetlo roze pozadina unosa */
+}
+
+button {
+    padding: 10px;
+    background-color: #ff6f91; /* Roze dugme */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #ff4974; /* Tamnije roze dugme kada pređeš mišem preko njega */
+    }
+
+h2 {
+    color: #d64078; /* Tamnija roze boja podnaslova */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffd6e7; /* Svetlije roze za stavke liste */
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    li button {
+        background-color: #ff4974; /* Dugme za brisanje u tamnije roze */
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: white;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+        li button:hover {
+            background-color: #d64078; /* Još tamnija roze kada pređeš mišem preko dugmeta za brisanje */
+        }
